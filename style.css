@@ -1,0 +1,42 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 50px auto; */
+   
+    
+}
+button{
+    font-weight: 600;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 35px;
+    margin: 10px;
+    width: 600px ;
+    outline: none;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1504253163759-c23fccaebb55?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdWR8ZW58MHx8MHx8fDA%3D);
+}
+.cart{
+    background-color: white;
+    width: 600px;
+    min-height: 330px;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    
+}
+.grey{
+    color: gray;
+}
+.temp{
+    font-size: 96px;
+}
+.cart img{
+    width: 160px;
+    height: 160px;
+}

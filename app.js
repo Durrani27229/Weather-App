@@ -38,7 +38,7 @@ const url = `http://api.weatherapi.com/v1/current.json?key=b4db485d7c4c485fa6d84
 form.addEventListener("submit", (event) => {
     event.preventDefault();
     const getWeather = async () => {
-        try{ const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=b4db485d7c4c485fa6d84351232508&q=${city.value}&aqi=no`)
+        try{ const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=b4db485d7c4c485fa6d84351232508&q=${city.value}&aqi=no`)
         const data = await response.json();
         
         main.innerHTML += `<div class="cart">
